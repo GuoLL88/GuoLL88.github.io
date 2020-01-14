@@ -1,0 +1,170 @@
+<BODY onmouseup=document.selection.empty() oncontextmenu="return false" 
+</body>
+<html>
+<HEAD><TITLE>G.L.L-Lelegon</TITLE>
+</head>
+
+<body><SCRIPT language=JavaScript> 
+
+<SCRIPT language=JavaScript>
+<!-- 
+if (document.all){
+Cols=10;
+Cl=48;//Space's are included so real length is 24!
+Cs=120;
+Ts=18;
+Tc='#ee1199';
+Tc1='#00ff00';
+MnS=20;
+MxS=20;
+I=Cs;
+Sp=new Array();S=new Array();Y=new Array();
+C=new Array();M=new Array();B=new Array();
+RC=new Array();E=new Array();Tcc=new Array(0,1,2,3,4,5,6,7,8,9);
+document.write("<div id='Container' style='position:absolute;top:0;left:-"+Cs+"'>");
+document.write("<div style='position:relative'>");
+for(i=0; i < Cols; i++){
+S[i]=I+=Cs;
+
+}
+function Cycle(){
+Container.style.top=window.document.body.scrollTop;
+for (i=0; i < Cols; i++){
+var r = Math.floor(Math.random()*Tcc.length);
+E[i] = '<font color='+Tc1+'>'+Tcc[r]+'</font>';
+Y[i]+=Sp[i];
+
+if (Y[i] > window.document.body.clientHeight){
+for(i2=0; i2 < Cols; i2++){
+RC[i2]=1+Math.round(Math.random()*Cl); 
+for(i3=0; i3 < RC[i2]; i3++){
+B[i3]='';
+C[i3]=Math.round(Math.random()*1)+' ';
+C[Math.floor(Math.random()*i2)]=' '+' ';
+M[i]=B[0]+=C[i3];
+Y[i]=-Ts*M[i].length/1.5;
+A[i].style.visibility='visible';
+}
+Sp[i]=Math.round(MnS+Math.random()*MxS);
+}
+}
+A[i].style.top=Y[i];
+A[i].innerHTML=M[i]+' '+E[i]+' ';
+}
+setTimeout('Cycle()',45)
+}
+</SCRIPT>
+<body bgcolor="black">
+<center>
+<font color="red" size="6">
+
+</HEAD>
+<STYLE type=text/css>
+<BODY> {
+PADDING-RIGHT: 50px<img src=\"static/image/smiley/default/titter.gif\" smilieid=\"9\" border=\"0\" alt=\"\" />ADDING-LEFT: 50px; SCROLLBAR-FACE-COLOR: #001111; BACKGROUND-IMAGE: url(<img src=\"http://www.cncedu.cn/UpFiles/wenhua/hexie.jpg\" onload=\"thumbImg(this)\" alt=\"\" />); PADDING-BOTTOM: 50px;FONT-FAMILY: "楷体_GB2312";font-size:20px;
+}
+#theText {
+  FONT-WEIGHT: bold; FONT-SIZE: 32px; TEXT-TRANSFORM: none; COLOR: #D4D4D4; FONT-FAMILY: "Courier New", Courier, monospace; TEXT-ALIGN: center
+}
+</BODY>
+</STYLE>
+<META content="MSHTML 6.00.2900.5969" name=GENERATOR>
+<body bgcolor="#000000">
+<br /><div id=theText style="WIDTH:100%;margin:10px auto;"> G.L.L-Lelegon</div>
+<div style="FONT-SIZE:25px;COLOR:#ff0000" align=center>一点烦恼</div>
+<SCRIPT>
+var from = 1;
+var to = 9;
+var delay = 55;
+var glowColor = "#FF0000";
+var i = to;
+var j = 0;
+textPulseDown();
+function textPulseUp()
+{
+if (!document.all)
+return
+if (i < to)
+{
+theText.style.filter = "Glow(Color=" + glowColor + ", Strength=" + i + ")";
+i++;
+theTimeout = setTimeout('textPulseUp()',delay);
+return 0;
+}
+if (i = to)
+{
+theTimeout = setTimeout('textPulseDown()',delay);
+return 0;
+}
+}
+function textPulseDown()
+{
+if (!document.all)
+return
+if (i > from)
+{
+theText.style.filter = "Glow(Color=" + glowColor + ", Strength=" + i + ")";
+i--;
+theTimeout = setTimeout('textPulseDown()',delay);
+return 0;
+}
+if (i = from)
+{
+theTimeout = setTimeout('textPulseUp()',delay);
+return 0;
+}
+}
+</SCRIPT><br>
+<FORM name=textform>
+<CENTER><INPUT type=hidden name=LajiCurText> <TEXTAREA style="FONT-SIZE: 14px; BORDER-LEFT-COLOR: #8e8e8e; BORDER-BOTTOM-COLOR: #8e8e8e; COLOR: #FFE7BA; BORDER-TOP-COLOR: #8e8e8e; SCROLLBAR-BASE-COLOR: #000000; overflow:hidden;BACKGROUND-COLOR: #000000; BORDER-RIGHT-COLOR: #8e8e8e" name=textfield rows=26 readOnly wrap=virtual cols=100></TEXTAREA> 
+</CENTER>
+<SCRIPT language=javascript> 
+var pos=0; 
+var LajiCurI=0; 
+function LajiCur() 
+{ 
+if(LajiCurI==0) 
+document.textform.LajiCurText.value="_"; 
+else if(LajiCurI==1) 
+document.textform.LajiCurText.value=" "; 
+else if(LajiCurI==2) 
+document.textform.LajiCurText.value="_"; 
+else if(LajiCurI>2) 
+{document.textform.LajiCurText.value=" ";LajiCurI=0;} 
+LajiCurI++; 
+} 
+setInterval("LajiCur()",delay); 
+function ShowText(strText) 
+{ 
+document.textform.textfield.value=strText.substring(0,pos++) 
++document.textform.LajiCurText.value; 
+setTimeout("ShowText(strText)",50); 
+if(pos==strText.length) 
+{ 
+return; 
+} 
+}var strText ="                                            G.L.L-Lelegon \n
+---------------------------------------------------------------------------------------\n
+Microsoft Windows 10 [版本 5.2.2800]\n                                     
+日  期  2020.01.14    \n                                     
+水面的涟漪虽然暂时消散，\n                                     
+思恋却如清风从未消失！   \n
+---------------------------------------------------------------------------------------\n
+你以为你的过去会禁锢你一生一世，\n
+但总有一个人，\n
+会帮你忘记一切，\n
+重新开始。\n
+生命是无常而短暂的，\n
+若是遇见了值得好好珍惜的人，\n
+就不要犹豫啊。\n
+我没理由让你不走，\n
+更没理由让你回头。  \n
+--------------------------------------------------------------------------------------\n
+在时间的长河里，我们只是一叶浮萍。\n
+不忘初心，不留遗憾，方得自在!\n
+--------------------------------------------------------------------------------------\n"
+ShowText(strText); 
+</SCRIPT>
+</FORM>
+<CENTER>
+<div style="margin:10px auto;font-size:20px;color:red; FONT-FAMILY: "楷体_GB2312""> G.L.L-Lelegon
